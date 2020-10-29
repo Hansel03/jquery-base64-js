@@ -1,6 +1,6 @@
 {
     "name": "jquery-base64-js",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Makes Base64 en & -decoding simpler as it is",
     "main": "jquery.base64.js",
     "scripts": {
@@ -30,5 +30,12 @@
     "bugs": {
         "url": "https://github.com/Hansel03/jquery-base64-js/issues"
     },
-    "homepage": "https://github.com/Hansel03/jquery-base64-js#readme"
+    "homepage": "https://github.com/Hansel03/jquery-base64-js#readme",
+    "ignore": [
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "bundleDependencies": false
 }
